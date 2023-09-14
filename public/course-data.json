@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "img": "https://i.ibb.co/df7bgCT/c-programming.jpg",
+        "title": "Introduction to C Programming",
+        "description": "Learn the basics of C Programming with this introductory course. No prior experience required.",
+        "price": 15000,
+        "credit": 3
+    },
+    {
+        "id": 2,
+        "img": "https://i.ibb.co/VQjPvM9/algorithms.jpg",
+        "title": "Introduction to Algorithms",
+        "description": "Build a strong foundation in Algorithms with this introductory course.",
+        "price": 25000,
+        "credit": 4
+    },
+    {
+        "id": 3,
+        "img": "https://i.ibb.co/2tYzsgV/c.jpg",
+        "title": "Introduction to C++ for DSA",
+        "description": "Learn the basics of C++ for DSA with this introductory course. No prior experience required.",
+        "price": 10000,
+        "credit": 2
+    },
+    {
+        "id": 4,
+        "img": "https://i.ibb.co/rxg7QYZ/data-structures.jpg",
+        "title": "Basic Data Structures",
+        "description": "Build a strong foundation in Basic Data Structures with this introductory course.",
+        "price": 35000,
+        "credit": 6
+    },
+    {
+        "id": 5,
+        "img": "https://i.ibb.co/B3CGkYQ/python.jpg",
+        "title": "Introduction to OOP Python",
+        "description": "Explore the world of Python and start building intelligent applications.",
+        "price": 19000,
+        "credit": 4
+    },
+    {
+        "id": 6,
+        "img": "https://i.ibb.co/s6tg8fv/software-engineering.jpg",
+        "title": "Software Engineering",
+        "description": "Learn Software Engineering with this introductory course. No prior experience required.",
+        "price": 23000,
+        "credit": 5
+    },
+    {
+        "id": 7,
+        "img": "https://i.ibb.co/f03VLvQ/cloud-computin.jpg",
+        "title": "AWS, Cloud Computing",
+        "description": "Learn the basics of AWS, Cloud Computing with this introductory course.",
+        "price": 35000,
+        "credit": 3
+    },
+    {
+        "id": 8,
+        "img": "https://i.ibb.co/d6qDTwZ/database.jpg",
+        "title": "Database (MySQL)",
+        "description": "Learn the basics of Database (MySQL) with this introductory course.",
+        "price": 19000,
+        "credit": 1
+    },
+    {
+        "id": 9,
+        "img": "https://i.ibb.co/zPvKhfY/problem-solving.jpg",
+        "title": "Problem-Solving Part",
+        "description": "Explore the world of Problem-Solving and start building intelligent applications.",
+        "price": 23000,
+        "credit": 5
+    }
+]
