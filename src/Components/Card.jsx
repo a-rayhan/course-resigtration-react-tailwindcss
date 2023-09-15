@@ -17,12 +17,7 @@ const Card = ({ course, handleSelectBtn }) => {
 
                     <div className="flex justify-between items-center mb-6 text-[#606C5D]">
                         <p className="text-lg font-semibold md:text-base lg:text-lg">
-                            <span>
-                                $
-                            </span>
-                            <span>
-                                Price :
-                            </span> {price}
+                            <span>$</span> <span>Price :</span> {price}
                         </p>
 
                         <p className="text-lg font-semibold md:text-base lg:text-lg">

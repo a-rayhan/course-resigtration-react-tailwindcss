@@ -5,12 +5,10 @@ import Swal from 'sweetalert2'
 import withReactContent from 'sweetalert2-react-content'
 
 const App = () => {
-
   const [selectedCourse, setSelectedCourse] = useState([]);
   const [totalCredit, setTotalCredit] = useState(0);
   const [totalCreditRemaining, setTotalCreditRemaining] = useState(20);
   const [totalPrice, setTotalPrice] = useState(0);
-
   const MySwal = withReactContent(Swal)
 
   const handleSelectBtn = course => {
@@ -42,7 +40,6 @@ const App = () => {
       setTotalCreditRemaining(creditRemaining);
       setSelectedCourse([...selectedCourse, course]);
     }
-
   }
 
   return (

@@ -2,7 +2,7 @@ import { useState } from "react";
 import Card from "./Card";
 import { useEffect } from "react";
 
-const Cards = ({handleSelectBtn}) => {
+const Cards = ({ handleSelectBtn }) => {
     const [courses, setCourses] = useState([]);
 
     useEffect(() => {
