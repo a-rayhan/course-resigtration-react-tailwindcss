@@ -20,7 +20,7 @@ const App = () => {
 
     const creditRemaining = 20 - credit;
 
-    if (credit >= 20 || creditRemaining <= 0) {
+    if (credit > 20 || creditRemaining < 0) {
       return alert('no more')
     } else {
       setTotalCredit(credit);
@@ -37,7 +37,7 @@ const App = () => {
         Course Registration
       </h1>
 
-      <div className="max-w-7xl mx-auto flex gap-4 pb-16">
+      <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-4 pb-16 justify-center items-center md:items-start">
         <Cards handleSelectBtn={handleSelectBtn} />
         <Cart selectedCourse={selectedCourse} totalCredit={totalCredit} totalCreditRemaining={totalCreditRemaining} totalPrice={totalPrice} />
       </div>

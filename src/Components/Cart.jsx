@@ -1,7 +1,7 @@
 const Cart = ({ selectedCourse, totalCredit, totalCreditRemaining, totalPrice }) => {
     return (
         <div>
-            <div className="max-w-[300px] bg-white p-4 rounded-xl">
+            <div className="min-w-[380px] lg:min-w-[300px] bg-white p-4 rounded-xl">
                 <h2 className="text-lg font-semibold mb-3 mt-2 text-[#2F80ED]">
                     Credit Hour Remaining {totalCreditRemaining} hr
                 </h2>
