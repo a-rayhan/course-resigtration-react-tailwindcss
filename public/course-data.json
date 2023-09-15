@@ -3,7 +3,7 @@
         "id": 1,
         "img": "https://i.ibb.co/df7bgCT/c-programming.jpg",
         "title": "Introduction to C Programming",
-        "description": "Learn the basics of C Programming with this introductory course. No prior experience required.",
+        "description": "Learn the basics of C Programming with this introductory course.",
         "price": 15000,
         "credit": 3
     },
@@ -27,7 +27,7 @@
         "id": 4,
         "img": "https://i.ibb.co/rxg7QYZ/data-structures.jpg",
         "title": "Basic Data Structures",
-        "description": "Build a strong foundation in Basic Data Structures with this introductory course.",
+        "description": "Build a strong foundation in Basic Data Structures with this introductory course. No prior experience required.",
         "price": 35000,
         "credit": 6
     },
@@ -43,7 +43,7 @@
         "id": 6,
         "img": "https://i.ibb.co/s6tg8fv/software-engineering.jpg",
         "title": "Software Engineering",
-        "description": "Learn Software Engineering with this introductory course. No prior experience required.",
+        "description": "Learn & explore the Software Engineering with this introductory course. No prior experience required. ",
         "price": 23000,
         "credit": 5
     },
@@ -59,7 +59,7 @@
         "id": 8,
         "img": "https://i.ibb.co/d6qDTwZ/database.jpg",
         "title": "Database (MySQL)",
-        "description": "Learn the basics of Database (MySQL) with this introductory course.",
+        "description": "Learn the basics of Database (MySQL) with this introductory course. No prior experience required.",
         "price": 19000,
         "credit": 1
     },
@@ -67,7 +67,7 @@
         "id": 9,
         "img": "https://i.ibb.co/zPvKhfY/problem-solving.jpg",
         "title": "Problem-Solving Part",
-        "description": "Explore the world of Problem-Solving and start building intelligent applications.",
+        "description": "Explore the world of Problem-Solving and start building intelligent applications. No prior experience required.",
         "price": 23000,
         "credit": 5
     }

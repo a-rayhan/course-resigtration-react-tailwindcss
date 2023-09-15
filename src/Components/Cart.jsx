@@ -1,9 +1,9 @@
-const Cart = () => {
+const Cart = ({ selectedCourse, totalCredit, totalCreditRemaining, totalPrice }) => {
     return (
         <div>
             <div className="max-w-[300px] bg-white p-4 rounded-xl">
                 <h2 className="text-lg font-semibold mb-3 mt-2 text-[#2F80ED]">
-                    Credit Hour Remaining 7 hr
+                    Credit Hour Remaining {totalCreditRemaining} hr
                 </h2>
 
                 <hr className="mb-3" />
@@ -13,21 +13,25 @@ const Cart = () => {
                 </h2>
 
                 <ol className="list-decimal text-[#606C5D]">
-                    <li className=" ml-4 mb-2">
-                        Introduction to c programming
-                    </li>
+                    {
+                        selectedCourse.map(item => (
+                            <li key={item.id} className=" ml-4 mb-2">
+                                {item.title}
+                            </li>
+                        ))
+                    }
                 </ol>
 
                 <hr className="my-4" />
 
                 <p className="text-lg font-semibold text-[#606C5D]">
-                    Total Credit Hour : 13
+                    Total Credit Hour : {totalCredit}
                 </p>
 
                 <hr className="my-4" />
 
                 <p className="text-lg font-semibold text-[#606C5D]">
-                    Total Price : 48000 USD
+                    Total Price : {totalPrice} USD
                 </p>
             </div>
         </div>
