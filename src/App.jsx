@@ -1,6 +1,8 @@
 import { useState } from "react";
 import Cards from "./Components/Cards";
 import Cart from "./Components/Cart";
+import Swal from 'sweetalert2'
+import withReactContent from 'sweetalert2-react-content'
 
 const App = () => {
 
@@ -8,6 +10,8 @@ const App = () => {
   const [totalCredit, setTotalCredit] = useState(0);
   const [totalCreditRemaining, setTotalCreditRemaining] = useState(20);
   const [totalPrice, setTotalPrice] = useState(0);
+
+  const MySwal = withReactContent(Swal)
 
   const handleSelectBtn = course => {
     let credit = course.credit;
@@ -21,7 +25,10 @@ const App = () => {
     const creditRemaining = 20 - credit;
 
     if (credit > 20 || creditRemaining < 0) {
-      return alert('no more')
+      MySwal.fire({
+        title: <p>Ooops! Your Credit is Over!</p>,
+
+      })
     } else {
       setTotalCredit(credit);
       setTotalPrice(price);
