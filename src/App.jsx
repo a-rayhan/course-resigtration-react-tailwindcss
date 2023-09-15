@@ -24,9 +24,16 @@ const App = () => {
 
     const creditRemaining = 20 - credit;
 
-    if (credit > 20 || creditRemaining < 0) {
+    const isSelected = selectedCourse.find((item) => item.id === course.id);
+
+    if (isSelected) {
       MySwal.fire({
-        title: <p>Ooops! Your Credit is Over!</p>,
+        title: <p>Aw! You Already Added This Course In Your List!</p>,
+
+      })
+    } else if (credit > 20 || creditRemaining < 0) {
+      MySwal.fire({
+        title: <p>Ooops! You Cannot added Over 20 Credit!</p>,
 
       })
     } else {
