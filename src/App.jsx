@@ -10,21 +10,24 @@ const App = () => {
   const [totalPrice, setTotalPrice] = useState(0);
 
   const handleSelectBtn = course => {
+    if (totalCredit >= 20 || totalCreditRemaining <= 0) {
+      return alert('No More')
+    } else {
+      let credit = course.credit;
+      let price = course.price;
+
+      selectedCourse.forEach(item => {
+        credit += item.credit;
+        price += item.price;
+      })
+      setTotalCredit(credit);
+      setTotalPrice(price);
+
+      const creditRemaining = 20 - credit;
+      setTotalCreditRemaining(creditRemaining);
+    }
+
     setSelectedCourse([...selectedCourse, course]);
-
-    let credit = course.credit;
-    let price = course.price;
-
-    selectedCourse.forEach(item => {
-      credit += item.credit;
-      price += item.price;
-    })
-    setTotalCredit(credit);
-    setTotalPrice(price);
-
-    const creditRemaining = 20 - credit;
-    setTotalCreditRemaining(creditRemaining);
-
   }
 
   return (
