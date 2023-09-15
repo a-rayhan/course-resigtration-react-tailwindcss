@@ -1,8 +1,13 @@
-# React + Vite
+# Project features
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- ### Cart funtionality: A cart funtionality is emplemented that contains users selected courses lists and their total credit, remaining credit and total costs. 
+- ### Toast Alert: A toast alert is emplemented. When user goes over their credits or click multiple time of same course, a sweetalert funtionlity shown  a toast alert. 
+- ### Mobile-Friendly Design: Responsive design to ensure usability on various devices, including smartphones and tablets.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+# State Management
+### React states contains users information. That we can used in components. Here  we use variuos states, they are selectedCourse, totalCredit, totalCreditRemaining, totalPrice.
+
+- ### SelectedCourse state conrtains users selected courses in a array. That we used in cards component.
+- ### TotalCredit and TotalCreditRemaining contains credit related information. That we use in cart component to show users creadit details.
